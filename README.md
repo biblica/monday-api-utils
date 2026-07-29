@@ -18,13 +18,13 @@ Current list of supported util functions with their required arguments:
 
 | Method | Description | Returns |
 | :--- | :--- | :--- |
-| `get_workspaces()` | Get workspace metadata | pandas.DataFrame |
-| `get_boards(workspace_ids)` | Get board metadata | pandas.DataFrame |
-| `find_workspace_ids(workspace_name)` | Use workspace name to search for workspace ID | list |
-| `find_board_ids(board_name)` | Use board name to search for board ID | list |
-| `get_board_columns(board_id)` | Get board column IDs, titles, and types | pandas.DataFrame |
-| `get_board_data(board_id)` | Read data from board | pandas.DataFrame |
-| `update_column_value(board_id, item_id, column_id, value)` | Write data to board one value at a time | string |
+| `get_workspaces()` | Get workspace metadata | `pandas.DataFrame` |
+| `get_boards(workspace_ids)` | Get board metadata | `pandas.DataFrame` |
+| `find_workspace_ids(workspace_name)` | Use workspace name to search for workspace ID | `list` |
+| `find_board_ids(board_name)` | Use board name to search for board ID | `list` |
+| `get_board_columns(board_id)` | Get board column IDs, titles, and types | `pandas.DataFrame` |
+| `get_board_data(board_id)` | Read data from board | `pandas.DataFrame` |
+| `update_column_value(board_id, item_id, column_id, value)` | Write data to board one value at a time | `string` |
 
 ## Example Usage
 ```
